@@ -1,4 +1,4 @@
-FROM huggingface/transformers-pytorch-gpu:latest
+FROM huggingface/transformers-pytorch-cpu:latest
 
 RUN pip install gradio Jinja2
 
