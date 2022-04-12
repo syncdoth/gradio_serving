@@ -30,10 +30,10 @@ def main():
             gr.outputs.Textbox(type="number", label="confidence"),
         ],
         title='sentiment analysis demo',
-        theme='huggingface',
+        theme='peach',
         interpretation='default',
     )
-    iface.launch(share=True)
+    iface.launch(server_name="0.0.0.0")
 
 
 if __name__ == '__main__':
