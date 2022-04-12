@@ -33,7 +33,7 @@ def main():
         theme='huggingface',
         interpretation='default',
     )
-    iface.launch(share=True)
+    iface.launch(server_name="0.0.0.0")
 
 
 if __name__ == '__main__':

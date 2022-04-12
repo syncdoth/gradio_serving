@@ -40,7 +40,7 @@ def main():
         title='Pororo MT Demo',
         theme='huggingface',
     )
-    iface.launch(share=True)
+    iface.launch(server_name="0.0.0.0")
 
 
 if __name__ == '__main__':
