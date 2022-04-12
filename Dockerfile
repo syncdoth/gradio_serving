@@ -1,6 +1,6 @@
 FROM huggingface/transformers-pytorch-gpu:latest
 
-RUN pip install gradio
+RUN pip install gradio Jinja2
 
 EXPOSE 7860
 
